@@ -1,0 +1,60 @@
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container custom-navbar-container">
+
+        <!-- Botón toggler para móviles -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+    </button>
+
+    <!-- Logo -->
+    <a class="navbar-brand d-none d-lg-block" routerLink="/Inicio">
+  <img src="logo.png" alt="Logo de Sirio" />
+</a>
+
+    <!-- Contenido colapsable -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <!-- Menú centrado -->
+      <ul class="navbar-nav mx-auto text-center">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/Inicio" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/productos" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/oferta" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Ofertas</a>
+        </li>
+      </ul>
+    </div>
+
+
+          <!-- Íconos alineados a la derecha -->
+      <div class="icon-container d-flex align-items-center gap-3 justify-content-center justify-content-lg-end mt-3 mt-lg-0">
+        <!-- Carrito -->
+        <a class="text-decoration-none position-relative" aria-label="Carrito" routerLink="/cart" role="button">
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16" style="color: #ffffff;">
+            <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0M9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0"/>
+          </svg>
+          <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill" style="font-size: 0.75rem; background-color: #C33B80;">
+            {{ total }}
+          </span>
+        </a>
+
+        <!-- Búsqueda -->
+        <a href="#" class="text-decoration-none" aria-label="Buscar" role="button">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16" style="color: #ffffff;">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+          </svg>
+        </a>
+      </div>
+  </div>
+</nav>
+

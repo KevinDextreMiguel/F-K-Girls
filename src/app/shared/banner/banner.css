@@ -1,0 +1,9 @@
+h4{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;         /* espacio interno */
+    margin: 0;                  /* sin márgenes por defecto */
+    text-align: center;           /* alineado al centro */
+    font-weight: bold;          
+    font-size: 0.85rem; /* texto más pequeño */
+}

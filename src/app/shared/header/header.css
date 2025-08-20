@@ -1,0 +1,111 @@
+/* Base para navbar */
+#navbar {
+  background-color: #5a189a;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Logo */
+.navbar-brand img {
+  width: clamp(48px, 5vw, 72px);
+  height: auto;
+}
+
+/* Navbar links */
+.navbar-nav .nav-link {
+  color: white;
+  font-weight: bold;
+  position: relative;
+  padding: 8px 12px;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #C33B80;
+}
+
+/* Línea blanca si activo */
+.navbar-nav .nav-link.active::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: white;
+}
+
+/* Línea hover */
+.navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 0;
+  background-color: #C33B80;
+  transition: width 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover::after {
+  width: 100%;
+}
+
+/* Iconos (carrito, búsqueda) */
+.icon {
+  font-size: 1.3rem;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+
+
+
+
+
+@media (max-width: 992px) {
+  .custom-navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding-inline: 1rem; /* agrega espacio horizontal */
+  }
+
+  .navbar-toggler {
+    margin: 0;
+    padding: 0.25rem 0.5rem;
+    border: none;
+  }
+
+  .navbar-toggler i {
+    font-size: 1.5rem;
+    color: white;
+  }
+
+  .navbar-brand {
+    margin-left: 1rem; /* empuja un poco el logo a la derecha */
+  }
+
+  .navbar-brand img {
+    height: 40px;
+  }
+
+  .icon-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-left: auto; /* íconos a la derecha */
+  }
+
+  .navbar-collapse {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+  }
+
+  .navbar-nav {
+    gap: 1rem;
+    text-align: center;
+  }
+}
+

@@ -1,0 +1,13 @@
+app-header {
+  position: sticky;
+  top: 0;
+  z-index: 1050; /* para que esté encima de otros elementos */
+  background-color: white; /* o el color que tenga el header */
+  width: 100%;
+  /* Opcional: sombra para que se distinga cuando se hace scroll */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+
+

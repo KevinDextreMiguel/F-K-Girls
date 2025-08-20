@@ -1,0 +1,36 @@
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.whatsapp-float img {
+  width: clamp(40px, 8vw, 64px); /* Tamaño responsivo */
+  height: auto;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+/* Efecto hover en dispositivos que lo permiten */
+@media (hover: hover) {
+  .whatsapp-float img:hover {
+    transform: scale(1.1);
+  }
+}
+
+/* Ajuste para pantallas muy pequeñas (iPhone SE, etc) */
+@media (max-width: 400px) {
+  .whatsapp-float {
+    bottom: 15px;
+    right: 15px;
+  }
+
+  .whatsapp-float img {
+    width: 48px;
+  }
+}
