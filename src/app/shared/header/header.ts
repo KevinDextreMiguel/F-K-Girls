@@ -3,6 +3,7 @@ import { RouterModule } from '@angular/router';
 import { CartService } from '../../services/cart.service';
 import { Subscription } from 'rxjs';
 import { DrawerModule } from 'primeng/drawer';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-header',
@@ -10,7 +11,8 @@ import { DrawerModule } from 'primeng/drawer';
   //para el enrutamiento
   imports: [
     RouterModule,
-    DrawerModule
+    DrawerModule,
+    CommonModule
   ],
 
   templateUrl: './header.html',

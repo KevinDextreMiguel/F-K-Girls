@@ -53,17 +53,47 @@
 
 
 
-<p-drawer [(visible)]="sidebarVisible" [baseZIndex]="10000" position="left" styleClass="custom-sidebar">
+
+<p-drawer [(visible)]="sidebarVisible"
+          [baseZIndex]="10000"
+          position="left"
+          [style]="{ 'background-color': '#5a189a', 'color': 'white', 'width': '250px' }"
+          styleClass="custom-sidebar">
+
   <ul class="list-unstyled m-0 p-0">
     <li class="mb-3">
-      <a routerLink="/Inicio" routerLinkActive="active" (click)="sidebarVisible = false" class="nav-link">Home</a>
+      <a routerLink="/Inicio"
+         routerLinkActive="active"
+         [routerLinkActiveOptions]="{ exact: true }"
+         (click)="sidebarVisible = false"
+         [ngClass]="['nav-link', 'custom-link']"
+         style="color: white; font-weight: bold; display: block; padding: 0.5rem 1rem; text-decoration: none;">
+        Home
+      </a>
     </li>
     <li class="mb-3">
-      <a routerLink="/productos" routerLinkActive="active" (click)="sidebarVisible = false" class="nav-link">Productos</a>
+      <a routerLink="/productos"
+         routerLinkActive="active"
+         [routerLinkActiveOptions]="{ exact: false }"
+         (click)="sidebarVisible = false"
+         [ngClass]="['nav-link', 'custom-link']"
+         style="color: white; font-weight: bold; display: block; padding: 0.5rem 1rem; text-decoration: none;">
+        Productos
+      </a>
     </li>
     <li class="mb-3">
-      <a routerLink="/oferta" routerLinkActive="active" (click)="sidebarVisible = false" class="nav-link">Ofertas</a>
+      <a routerLink="/oferta"
+         routerLinkActive="active"
+         [routerLinkActiveOptions]="{ exact: true }"
+         (click)="sidebarVisible = false"
+         [ngClass]="['nav-link', 'custom-link']"
+         style="color: white; font-weight: bold; display: block; padding: 0.5rem 1rem; text-decoration: none;">
+        Ofertas
+      </a>
     </li>
   </ul>
+
 </p-drawer>
+
+
 
