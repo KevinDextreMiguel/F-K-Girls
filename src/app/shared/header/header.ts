@@ -2,17 +2,25 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { CartService } from '../../services/cart.service';
 import { Subscription } from 'rxjs';
+import { DrawerModule } from 'primeng/drawer';
 
 @Component({
   selector: 'app-header',
+  standalone: true,    
   //para el enrutamiento
-  imports: [RouterModule],
+  imports: [
+    RouterModule,
+    DrawerModule
+  ],
 
   templateUrl: './header.html',
   styleUrl: './header.css'
 })
-export class Header implements OnInit,OnDestroy{
 
+
+
+export class Header implements OnInit,OnDestroy{
+  sidebarVisible: boolean = false;
   total:number = 0;
   private subscription: Subscription = new Subscription();
 

@@ -1,35 +1,17 @@
-/* Asegura que labels y inputs estén alineados verticalmente */
-.p-field {
-  margin-bottom: 1rem;
-}
-
-.p-field > label {
-  display: block;
-  margin-bottom: 0.25rem;
-  font-weight: 600;
-}
-
-/* Para que los inputs tomen todo el ancho disponible */
-.p-field > input {
-  width: 100%;
-  box-sizing: border-box;
-}
-
 
 /* === Carrito y resumen layout === */
 .cart-container {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  align-items: center; /* centrado horizontal */
+  padding-left: 15%; /* solo en pantallas grandes */
 }
 
-
-
-@media (min-width: 992px) {
-  .cart-container {
-    flex-direction: row;
-    align-items: flex-start;
-  }
+.purchase-summary {
+  min-width: 280px;
+  max-width: 100%;
+  width: 100%;
 }
 
 .cart-item-image {
@@ -54,27 +36,48 @@
   gap: 6px;
 }
 
-@media (max-width: 576px) {
-  .cart-item-actions {
-    width: 100%;
-    align-items: flex-start;
-    margin-top: 0.5rem;
-  }
-}
-
-.purchase-summary {
-  min-width: 280px;
-  max-width: 100%;
-  width: 100%;
-}
-
-@media (min-width: 992px) {
-  .purchase-summary {
-    max-width: 400px;
-  }
-}
 
 /* Dialog responsive fix */
 .p-dialog {
   max-width: 95vw;
+}
+
+/* Asegura que labels y inputs estén alineados verticalmente */
+.p-field {
+  margin-bottom: 1rem;
+}
+
+.p-field > label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+}
+
+/* Para que los inputs tomen todo el ancho disponible */
+.p-field > input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+
+
+@media (max-width: 576px) {
+  .cart-container {
+    padding-left: 0;
+    padding-right: 0;
+    align-items: center;
+  }
+
+  .purchase-summary {
+  min-width: 280px;
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+.cart-item {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
 }

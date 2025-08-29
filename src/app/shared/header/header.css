@@ -58,6 +58,22 @@
 }
 
 
+::ng-deep .custom-sidebar {
+  background-color: #5a189a;
+  color: white;
+  width: 250px;
+}
+
+::ng-deep .custom-sidebar .nav-link {
+  color: white;
+  font-weight: bold;
+  display: block;
+  transition: color 0.3s ease;
+}
+
+::ng-deep .custom-sidebar .nav-link:hover {
+  color: #C33B80;
+}
 
 
 

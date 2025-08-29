@@ -14,7 +14,8 @@ import autoTable from 'jspdf-autotable';
 @Component({
   selector: 'app-cart',
   standalone: true,
-  imports: [CommonModule,
+  imports: [
+    CommonModule,
     FormsModule,
     InputTextModule,
     ButtonModule,

@@ -2,17 +2,9 @@
   <div class="container custom-navbar-container">
 
         <!-- Botón toggler para móviles -->
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarNav"
-      aria-controls="navbarNav"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
-    </button>
+    <button class="navbar-toggler" type="button" (click)="sidebarVisible = true">
+  <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+</button>
 
     <!-- Logo -->
     <a class="navbar-brand d-none d-lg-block" routerLink="/Inicio">
@@ -57,4 +49,21 @@
       </div>
   </div>
 </nav>
+
+
+
+
+<p-drawer [(visible)]="sidebarVisible" [baseZIndex]="10000" position="left" styleClass="custom-sidebar">
+  <ul class="list-unstyled m-0 p-0">
+    <li class="mb-3">
+      <a routerLink="/Inicio" routerLinkActive="active" (click)="sidebarVisible = false" class="nav-link">Home</a>
+    </li>
+    <li class="mb-3">
+      <a routerLink="/productos" routerLinkActive="active" (click)="sidebarVisible = false" class="nav-link">Productos</a>
+    </li>
+    <li class="mb-3">
+      <a routerLink="/oferta" routerLinkActive="active" (click)="sidebarVisible = false" class="nav-link">Ofertas</a>
+    </li>
+  </ul>
+</p-drawer>
 

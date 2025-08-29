@@ -10,11 +10,11 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
 
 export class Home implements OnInit, OnDestroy{
   images: string[] = [
-    '/imgmujer/mujer_sonriendo.webp',
-    '/imgmujer/mujer_faja.jfif',
-    '/imgmujer/chica_bibkini.webp',
-    '/imgmujer/mujer_brasier.webp',
-    '/imgmujer/mujer_media.webp',
+    '/imgmujer/mujer_sonriendo.jpg',
+    '/imgmujer/mujer_faja.jpg',
+    '/imgmujer/chica_bibkini.jpg',
+    '/imgmujer/mujer_brasier.jpg',
+    '/imgmujer/mujer_media.jpg',
   ];
 
   texts: string[] = [
@@ -24,21 +24,17 @@ export class Home implements OnInit, OnDestroy{
     
     `Aquí descubrirás mucho más que una prenda: nuestras fajas son el abrazo perfecto para tu figura. 
     Diseñadas con telas de compresión inteligente y costuras invisibles, ofrecen soporte donde lo necesitas, 
-    realzan tus curvas y se adaptan a cada movimiento sin sacrificar comodidad. 
-    Porque una buena faja no solo estiliza… empodera. Moldea tu cuerpo, eleva tu confianza, siente la diferencia.`,
+    realzan tus curvas y se adaptan a cada movimiento sin sacrificar comodidad.`,
 
     `Aquí no solo encontrarás ropa interior… descubrirás una experiencia de lujo para tu piel. 
     Cada prenda ha sido creada con materiales de la más alta calidad, pensada para envolverte en suavidad, 
     realzar tu figura y brindarte una comodidad que sentirás desde el primer instante. 
-    Cada costura está cuidadosamente terminada, cada tela ha sido seleccionada para que dure, 
-    respire y se adapte a ti como una segunda piel.
     Siente la diferencia. Vive el confort. Ama tu reflejo.`,
 
     `Aquí comienza tu historia con el brasier perfecto. Confeccionados con encajes finos, microfibras ultrasuaves y 
     acabados de alta costura, cada brasier abraza tu figura con un ajuste impecable, realza tu silueta y 
-    te acompaña con soporte durante todo el día. Cada diseño está pensado para que te sientas tan segura como femenina, 
-    combinando elegancia, resistencia y suavidad incomparable. Porque un brasier de calidad no solo se nota… se siente y 
-    te transforma. Siéntete cómoda, mírate radiante, vive la diferencia.`,
+    te acompaña con soporte durante todo el día. Cada diseño está pensado para que te sientas tan segura como femenina. 
+    Siéntete cómoda, mírate radiante, vive la diferencia.`,
 
     `Aquí tus pasos comienzan con elegancia. Nuestras medias no son solo un accesorio: 
     son la fusión perfecta entre confort, estilo y durabilidad. 
