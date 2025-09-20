@@ -9,59 +9,74 @@ export class ProductsService {
   private products: Product[] = [
     { 
       id: 1, 
-      name: 'Faja moldeadora', 
-      price: 30,
+      name: 'Ropa Interior 1', 
+      price: 21.9,
       talla: 'S',
       tallas: ['S', 'M', 'L'],
       onSale: false,
       discountPercent: 0,
       variants: [
         { 
-          color: 'Negro', 
-          hex: '#000000', 
-          image: 'https://imgs.search.brave.com/YTIocVMgk9KQTBuKbAdbgDOpNdaaxHYY1Z-gmiucbic/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9oaXBz/LmhlYXJzdGFwcHMu/Y29tL3ZhZGVyLXBy/b2QuczMuYW1hem9u/YXdzLmNvbS8xNjc5/MjE4NTIyLWZhamEt/Y29sb21iaWFuYS1h/bWF6b24tZmFqYXMt/NjQxNmQ3M2JiZmY5/ZC5qcGc_Y3JvcD0x/eHc6MXhoO2NlbnRl/cix0b3AmcmVzaXpl/PTk4MDoq',
+          color: 'Plomo', 
+          hex: '#B0B0B0', 
+          image: 'https://i.imgur.com/Vmm6ziO.jpg',
         },
         { 
-          color: 'Beige', 
-          hex: '#f5f5dc', 
-          image: 'https://imgs.search.brave.com/hYQmkQtmPIpgL9UF5Pdp3XhaSJAmRnL-nybtlwsbPQw/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NzFRZ3RXR1c5bUwu/anBn',
+          color: 'Rojo vino', 
+          hex: '#482226', 
+          image: 'https://i.imgur.com/OA6sLM8.jpg',
+        },
+        { 
+          color: 'Rosa claro', 
+          hex: '#fea1b8', 
+          image: 'https://i.imgur.com/8B95Bz2.jpg',
+        },
+        { 
+          color: 'Azul marino', 
+          hex: '#123772', 
+          image: 'https://i.imgur.com/thGeBkV.jpg',
         },
         { 
           color: 'Blanco', 
-          hex: '#ffffff', 
-          image: 'https://imgs.search.brave.com/yu5Bo6Mw9PGvfrfZvGh_ahd_KlpgXTZZydN-UdOr_RM/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/c2hhcGV3ZWFydXNh/LmNvbS9jZG4vc2hv/cC9wcm9kdWN0cy9m/YWphcy1zb25yeXNl/LXBhbnR5LWJvZHlz/dWl0LXNoYXBld2Vh/ci13aXRoLWJ1aWx0/LWluLWJyYS0zMjQ5/MTY1MTMwMTU2Ni5w/bmc_dj0xNjgwNjYz/OTY3JndpZHRoPTYw/MA',
-        }
+          hex: '#FFFFFF', 
+          image: 'https://i.imgur.com/lKwn9SO.jpg',
+        },
       ]
     },
     { 
       id: 2, 
-      name: 'Brasier de encaje', 
-      price: 25,
+      name: 'Ropa Interior 2', 
+      price: 19.9,
       talla: 'S',
       tallas: ['S', 'M', 'L'],
       onSale: false,
       discountPercent: 0,
       variants: [
         { 
+          color: 'Vino tinto oscuro', 
+          hex: '#790221', 
+          image: 'https://i.imgur.com/ysytpqn.jpg',
+        },
+        { 
+          color: 'Rojo coral', 
+          hex: '#ea5c5f', 
+          image: 'https://i.imgur.com/M0VAJZj.jpg',
+        },
+        { 
           color: 'Negro', 
           hex: '#000000', 
-          image: 'https://imgs.search.brave.com/73VRGzIqLClFH5ppfScvMU2fsdyai99CMyfa7MBud3k/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/ZWxwYWxhY2lvZGVo/aWVycm8uY29tL2R3/L2ltYWdlL3YyL0JE/S0JfUFJEL29uL2Rl/bWFuZHdhcmUuc3Rh/dGljLy0vU2l0ZXMt/cGFsYWNpby1tYXN0/ZXItY2F0YWxvZy9k/ZWZhdWx0L2R3M2Mw/YTFhZDMvaW1hZ2Vz/LzQ0MjMwMzQ5L05F/R1JPL2xhcmdlLzQ0/MjMwMzU3X3gxLmpw/Zz9zdz0zNDYmc2g9/Mzk0',
+          image: 'https://i.imgur.com/drkP6fS.jpg',
         },
         { 
-          color: 'Beige', 
-          hex: '#f5f5dc', 
-          image: 'https://imgs.search.brave.com/xHvv0LX5GkBm8LNBbuCrn-LkxaJgNwfEo_lTVqvTAnI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtbmEuc3NsLWlt/YWdlcy1hbWF6b24u/Y29tL2ltYWdlcy9J/LzgxRkNJNzhBV3VM/LmpwZw',
-        },
-        { 
-          color: 'Blanco', 
-          hex: '#ffffff', 
-          image: 'https://imgs.search.brave.com/7yGslh8RJFBqKaDEJcFOmfmQl58wnvKANxRGpry7FdY/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9odHRw/Mi5tbHN0YXRpYy5j/b20vRF9RX05QXzJY/XzgyMzI5Ni1NQ084/NTM0OTQ2NjExNl8w/NjIwMjUtRS53ZWJw',
+          color: 'Amarillo vainilla', 
+          hex: '#faeca3', 
+          image: 'https://i.imgur.com/FHlceTR.jpg',
         }
       ]
     },
     { id: 3,
-      name: 'Media elegante',
-      price: 15,
+      name: 'Ropa interior 3',
+      price: 12.9,
       talla: 'S',
       tallas: ['S', 'M', 'L'],
       onSale: false,
@@ -70,45 +85,253 @@ export class ProductsService {
         { 
           color: 'Negro', 
           hex: '#000000', 
-          image: 'https://imgs.search.brave.com/sQL_ajHKJhHALb8tcGwUoodml_zEHgJmQ7gtohPm9tE/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/Z2FsYXguY28vY2Ru/L3Nob3AvZmlsZXMv/c2F6YS1uZWdyby03/MDQ3LTc0NTk0NF8w/MDcwNDctNS5qcGc_/dj0xNzMzODYwNjk0/JndpZHRoPTYwMA',
+          image:'https://i.imgur.com/T1WUC0I.jpg'
         },
         { 
-          color: 'Beige', 
-          hex: '#f5f5dc', 
-          image: 'https://imgs.search.brave.com/Ig1X9fuesQmXjH8ogCWyjJJLEdkSLZTVZkSrTPpdbfU/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NjFUNlZKdzkrZUwu/anBn',
-        },
-        { 
-          color: 'Blanco', 
-          hex: '#ffffff', 
-          image: 'https://imgs.search.brave.com/BaUQYfedMQ52cRda8t-V7U1YsRgZOhGLpsEoG2UnIHQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/Z2FsYXguY28vY2Ru/L3Nob3AvZmlsZXMv/c2FmaW5vLXg1LWJs/YW5jby05MDAtODAx/MTk3XzAwMDkwMC00/LmpwZz92PTE3NDgz/NTM4Nzkmd2lkdGg9/NjAw',
+          color: 'Rojo intenso', 
+          hex: '#d90204', 
+          image:'https://i.imgur.com/PH2gspr.jpg'
         }
       ]
     },
      { id: 4,
-      name: 'Ropa interior',
-      price: 10,
+      name: 'Ropa interior 4',
+      price: 12.9,
       talla: 'S',
       tallas: ['S', 'M', 'L'],
       onSale: true,
       discountPercent: 10,
       variants: [
         { 
-          color: 'Negro', 
-          hex: '#000000', 
-          image: 'https://imgs.search.brave.com/6B4o7nL-mzdjvwZzS3I8LtogBH5AMmIjcb7pR9hV8BU/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zLmFs/aWNkbi5jb20vQHNj/MDQva2YvSExCMVJX/bVJRcnJwSzFSalNa/VEVxNkFXQVZYYW4u/anBnXzMwMHgzMDAu/anBn',
+          color: 'Vino oscuro', 
+          hex: '#221721', 
+          image: 'https://i.imgur.com/C9MJfM4.jpg',
         },
         { 
-          color: 'Beige', 
-          hex: '#f5f5dc', 
-          image: 'https://imgs.search.brave.com/vk0PFEHiuGm0nn7s06gzKosLroRgNqlI8UgcCm9Q-JU/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90YW5p/YS52dGV4aW1nLmNv/bS5ici9hcnF1aXZv/cy9pZHMvMzc3NzQ0/LTM1MC0zNTAvUk9Q/QS1JTlRFUklPUi1Q/YW50aWVzXzIwNTQ2/ODhfUGllbF8yLmpw/Zz92PTYzODgwODU3/MzYzMjM3MDAwMA',
+          color: 'Rosa salmón claro', 
+          hex: '#ed8981', 
+          image: 'https://i.imgur.com/xiaET4S.jpg'
+        },
+        { 
+          color: 'Rojo sangre', 
+          hex: '#a41422', 
+          image: 'https://i.imgur.com/cV2cLcW.jpg',
+        },
+        { 
+          color: 'Rojo vivo', 
+          hex: '#e50305', 
+          image: 'https://i.imgur.com/MeKJubf.jpg',
+        }
+      ]
+    },
+
+
+
+
+
+
+    { id: 5,
+      name: 'Brasier 1',
+      price: 26.9,
+      talla: 'S',
+      tallas: ['S', 'M', 'L'],
+      onSale: false,
+      discountPercent: 10,
+      variants: [
+        { 
+          color: 'Rosa empolvado', 
+          hex: '#e6a3ae', 
+          image: 'https://i.imgur.com/AlWAUrc.jpg',
+        },
+        { 
+          color: 'Amarillo durazno', 
+          hex: '#fdd28f', 
+          image: 'https://i.imgur.com/tc4F1eN.jpg'
+        },
+        { 
+          color: 'Gris lavanda', 
+          hex: '#9e9cac', 
+          image: 'https://i.imgur.com/bguyIS1.jpg',
+        }
+      ]
+    },
+
+
+    { id: 6,
+      name: 'Brasier 2',
+      price: 25.9,
+      talla: 'S',
+      tallas: ['S', 'M', 'L'],
+      onSale: false,
+      discountPercent: 10,
+      variants: [
+        { 
+          color: 'Marrón dorado', 
+          hex: '#917243', 
+          image: 'https://i.imgur.com/n7vqude.jpg',
+        },
+        { 
+          color: 'Azul lavanda', 
+          hex: '#7f94c1', 
+          image: 'https://i.imgur.com/sdCML0O.jpg'
+        },
+        { 
+          color: 'Marrón rosado', 
+          hex: '#a76b7b', 
+          image: 'https://i.imgur.com/fIiIXro.jpg',
+        }
+      ]
+    },
+
+
+    { id: 7,
+      name: 'Medias Plantilla',
+      price: 7.9,
+      talla: 'S',
+      tallas: ['S', 'M', 'L'],
+      onSale: false,
+      discountPercent: 10,
+      variants: [
+        { 
+          color: 'Negro', 
+          hex: '#000000', 
+          image: 'https://i.imgur.com/nunxOX3.jpg',
+        },
+        { 
+          color: 'Beige cálido', 
+          hex: '#b39385', 
+          image: 'https://i.imgur.com/XyowOsc.jpg'
+        },
+        { 
+          color: 'Gris perla', 
+          hex: '#ccc9d2', 
+          image: 'https://i.imgur.com/BoBpqEB.jpg',
+        }
+      ]
+    },
+
+
+
+
+    { id: 8,
+      name: 'Medias 2',
+      price: 10.9,
+      talla: 'S',
+      tallas: ['S', 'M', 'L'],
+      onSale: false,
+      discountPercent: 10,
+      variants: [
+        { 
+          color: 'Marrón rosado claro', 
+          hex: '#bb9b96', 
+          image: 'https://i.imgur.com/3bqWzfQ.jpg',
+        },
+        { 
+          color: 'Gris pálido', 
+          hex: '#8d8c91', 
+          image: 'https://i.imgur.com/mPlWS94.jpg'
+        },
+        { 
+          color: 'Beige rosado', 
+          hex: '#c09faa', 
+          image: 'https://i.imgur.com/9Cq6iio.jpg',
+        }
+      ]
+    },
+
+
+
+
+
+    { id: 9,
+      name: 'Medias Plantilla 2',
+      price: 7.9,
+      talla: 'S',
+      tallas: ['S', 'M', 'L'],
+      onSale: false,
+      discountPercent: 10,
+      variants: [
+        { 
+          color: 'Negro', 
+          hex: '#000000', 
+          image: 'https://i.imgur.com/JgAoi6x.jpg',
+        },
+        { 
+          color: 'Marrón oliva', 
+          hex: '#938564', 
+          image: 'https://i.imgur.com/dRv0CwW.jpg'
         },
         { 
           color: 'Blanco', 
-          hex: '#ffffff', 
-          image: 'https://imgs.search.brave.com/OKqWatcYE0tL35BUhPUu5AWJ0nc0yddo7ve0BLaKSoc/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/Zm90by1ncmF0aXMv/cmV0cmF0by1jdWVy/cG8tZW50ZXJvLWhl/cm1vc2EtY2hpY2Et/ZGVsZ2FkYS1yb3Bh/LWludGVyaW9yXzE3/MTMzNy05Mjg5Lmpw/Zz9zZW10PWFpc19o/eWJyaWQmdz03NDA',
+          hex: '#FFFFFF', 
+          image: 'https://i.imgur.com/kq3YGeT.jpg',
+        },
+        { 
+          color: 'Rosa Cálido', 
+          hex: '#c46e91', 
+          image: 'https://i.imgur.com/ucOED1z.jpg',
         }
       ]
-    }
+    },
+
+
+
+
+    { id: 10,
+      name: 'Medias Amanecer',
+      price: 10.9,
+      talla: 'S',
+      tallas: ['S', 'M', 'L'],
+      onSale: false,
+      discountPercent: 10,
+      variants: [
+        { 
+          color: 'Marrón Cálido', 
+          hex: '#aa5b44', 
+          image: 'https://i.imgur.com/mejzdvf.jpg',
+        },
+        { 
+          color: 'Beige', 
+          hex: '#bba6a3', 
+          image: 'https://i.imgur.com/dLbTi2k.jpg'
+        },
+        { 
+          color: 'Blanco', 
+          hex: '#FFFFFF', 
+          image: 'https://i.imgur.com/ZHqmpcb.jpg',
+        }
+      ]
+    },
+
+
+     { id: 11,
+      name: 'Medias Amanecer 2',
+      price: 10.9,
+      talla: 'S',
+      tallas: ['S', 'M', 'L'],
+      onSale: false,
+      discountPercent: 10,
+      variants: [
+        { 
+          color: 'Blanco', 
+          hex: '#FFFFFF', 
+          image: 'https://i.imgur.com/pXX2Gsa.jpg',
+        },
+        { 
+          color: 'Gris Claro', 
+          hex: '#c4c3c4', 
+          image: 'https://i.imgur.com/apHY1cX.jpg'
+        },
+        { 
+          color: 'Marrón Rojizo', 
+          hex: '#a25d58', 
+          image: 'https://i.imgur.com/T6nhiLy.jpg',
+        }
+      ]
+    },
+    
+
+
   ];
 
   getProducts(): Product[] {

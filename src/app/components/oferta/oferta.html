@@ -27,10 +27,10 @@
 
           <p class="card-text fw-bold">
             <span class="text-muted text-decoration-line-through me-2" *ngIf="product.discountPercent">
-              ${{ product.price.toFixed(2) }}
+              s/ {{ product.price.toFixed(2) }}
             </span>
             <span class="text-primary">
-             ${{ getDiscountedPrice(product).toFixed(2) }}
+             s/ {{ getDiscountedPrice(product).toFixed(2) }}
             </span>
           </p>
 

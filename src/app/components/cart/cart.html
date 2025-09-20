@@ -42,7 +42,7 @@
 
         <!-- Precio original tachado -->
         <span *ngIf="hasDiscount(item)" class="text-muted text-decoration-line-through" style="font-size: 0.85rem;">
-          S/ {{ (getOriginalPrice(item) * item.quantity) | number: '1.2-2' }}
+          S/. {{ (getOriginalPrice(item) * item.quantity) | number: '1.2-2' }}
         </span>
 
         <!-- Controles de cantidad -->
@@ -68,7 +68,7 @@
     <!-- Descuentos -->
     <div *ngIf="discountTotal > 0" class="mb-2">
       <strong>Descuentos ({{ discountedItems.length }})</strong>
-      <div class="text-danger">- S/ {{ discountTotal | number: '1.2-2' }}</div>
+      <div class="text-danger">- S/. {{ discountTotal | number: '1.2-2' }}</div>
 
       <div *ngFor="let item of discountedItems" class="mt-2">
         <div class="fw-medium">{{ item.name }}</div>
@@ -86,7 +86,7 @@
 
     <!-- Envío gratis (simulado) -->
     <div *ngIf="total >= 5" class="text-success mt-2">
-      ¡Envío gratis disponible!
+      ¡Envío gratis en compras a partir de S/ 80.00!
     </div>
 
     <button class="btn btn-success w-100 mt-3" (click)="openCheckoutDialog()">

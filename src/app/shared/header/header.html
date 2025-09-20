@@ -30,6 +30,13 @@
 
           <!-- Íconos alineados a la derecha -->
       <div class="icon-container d-flex align-items-center gap-3 justify-content-center justify-content-lg-end mt-3 mt-lg-0">
+
+         <!-- Búsqueda -->
+        <a href="#" class="text-decoration-none" aria-label="Buscar" role="button">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16" style="color: #ffffff;">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+          </svg>
+        </a>
         <!-- Carrito -->
         <a class="text-decoration-none position-relative" aria-label="Carrito" routerLink="/cart" role="button">
           <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16" style="color: #ffffff;">
@@ -39,13 +46,6 @@
             {{ total }}
           </span>
         </a>
-
-        <!-- Búsqueda -->
-        <a href="#" class="text-decoration-none" aria-label="Buscar" role="button">
-          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16" style="color: #ffffff;">
-            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
-          </svg>
-        </a>
       </div>
   </div>
 </nav>
@@ -53,16 +53,42 @@
 
 
 
-<p-drawer [(visible)]="sidebarVisible" [baseZIndex]="10000" position="left" styleClass="custom-sidebar">
+<p-drawer [(visible)]="sidebarVisible"
+          [baseZIndex]="10000"
+          position="left"
+          [style]="{ 'background-color': '#5a189a', 'color': 'white', 'width': '250px' }"
+          styleClass="custom-sidebar">
+
   <ul class="list-unstyled m-0 p-0">
     <li class="mb-3">
-      <a routerLink="/Inicio" routerLinkActive="active" (click)="sidebarVisible = false" class="nav-link">Home</a>
+      <a routerLink="/Inicio"
+         routerLinkActive="active"
+         [routerLinkActiveOptions]="{ exact: true }"
+         (click)="sidebarVisible = false"
+         [ngClass]="['nav-link', 'custom-link']"
+         style="color: white; font-weight: bold; display: block; padding: 0.5rem 1rem; text-decoration: none;">
+        Home
+      </a>
     </li>
     <li class="mb-3">
-      <a routerLink="/productos" routerLinkActive="active" (click)="sidebarVisible = false" class="nav-link">Productos</a>
+      <a routerLink="/productos"
+         routerLinkActive="active"
+         [routerLinkActiveOptions]="{ exact: false }"
+         (click)="sidebarVisible = false"
+         [ngClass]="['nav-link', 'custom-link']"
+         style="color: white; font-weight: bold; display: block; padding: 0.5rem 1rem; text-decoration: none;">
+        Productos
+      </a>
     </li>
     <li class="mb-3">
-      <a routerLink="/oferta" routerLinkActive="active" (click)="sidebarVisible = false" class="nav-link">Ofertas</a>
+      <a routerLink="/oferta"
+         routerLinkActive="active"
+         [routerLinkActiveOptions]="{ exact: true }"
+         (click)="sidebarVisible = false"
+         [ngClass]="['nav-link', 'custom-link']"
+         style="color: white; font-weight: bold; display: block; padding: 0.5rem 1rem; text-decoration: none;">
+        Ofertas
+      </a>
     </li>
   </ul>
 

@@ -13,5 +13,5 @@ export const routes: Routes = [
     {path:'oferta',component:Oferta},
     
     //si la ruta no exista, redireccionar a la raìz
-    {path:'**',redirectTo:''},
+    {path:'**',pathMatch:'full',redirectTo:''},
 ];

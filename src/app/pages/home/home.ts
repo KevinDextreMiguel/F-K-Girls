@@ -26,7 +26,7 @@ export class Home implements OnInit, OnDestroy{
     Diseñadas con telas de compresión inteligente y costuras invisibles, ofrecen soporte donde lo necesitas, 
     realzan tus curvas y se adaptan a cada movimiento sin sacrificar comodidad.`,
 
-    `Aquí no solo encontrarás ropa interior… descubrirás una experiencia de lujo para tu piel. 
+    `Aquí no solo encontrarás ropa interior, descubrirás una experiencia de lujo para tu piel. 
     Cada prenda ha sido creada con materiales de la más alta calidad, pensada para envolverte en suavidad, 
     realzar tu figura y brindarte una comodidad que sentirás desde el primer instante. 
     Siente la diferencia. Vive el confort. Ama tu reflejo.`,
@@ -44,19 +44,19 @@ export class Home implements OnInit, OnDestroy{
   ];
   
   backgrounds: string[] = [
-  '#89004F',     // Para la imagen 0
-  '#C33B80',     // Para la imagen 1
-  '#FF69B4',     // Para la imagen 2
-  '#FFA8D9',     // Para la imagen 3
-  '#FFE0FF',     // Para la imagen 4
+  '#f74780',     // Para la imagen 0
+  '#fc6998',     // Para la imagen 1
+  '#fa8fb1',     // Para la imagen 2
+  '#ffc1d5',     // Para la imagen 3
+  '#FA8072',     // Para la imagen 4
 ];
 
 textColors: string[] = [
   '#FFDDEE', // Para #89004F → rosa muy claro que resalta
-  '#FFE6F1', // Para #C33B80 → fondo fuerte, texto suave claro
+  '#000000', // Para #C33B80 → fondo fuerte, texto suave claro
   '#ffffff', // Para #FF69B4 → blanco funciona bien
   '#5A0040', // Para #FFA8D9 → fondo claro, texto oscuro y elegante
-  '#4D004D', // Para #FFE0FF → fondo muy claro, texto violeta oscuro
+  '#ffffff', // Para #FFE0FF → fondo muy claro, texto violeta oscuro
 ];
 
   currentIndex: number = 0;
