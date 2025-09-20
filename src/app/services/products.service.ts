@@ -136,7 +136,7 @@ export class ProductsService {
       talla: 'S',
       tallas: ['S', 'M', 'L'],
       onSale: false,
-      discountPercent: 10,
+      discountPercent: 0,
       variants: [
         { 
           color: 'Rosa empolvado', 
@@ -163,7 +163,7 @@ export class ProductsService {
       talla: 'S',
       tallas: ['S', 'M', 'L'],
       onSale: false,
-      discountPercent: 10,
+      discountPercent: 0,
       variants: [
         { 
           color: 'Marrón dorado', 
@@ -190,7 +190,7 @@ export class ProductsService {
       talla: 'S',
       tallas: ['S', 'M', 'L'],
       onSale: false,
-      discountPercent: 10,
+      discountPercent: 0,
       variants: [
         { 
           color: 'Negro', 
@@ -219,7 +219,7 @@ export class ProductsService {
       talla: 'S',
       tallas: ['S', 'M', 'L'],
       onSale: false,
-      discountPercent: 10,
+      discountPercent: 0,
       variants: [
         { 
           color: 'Marrón rosado claro', 
@@ -249,7 +249,7 @@ export class ProductsService {
       talla: 'S',
       tallas: ['S', 'M', 'L'],
       onSale: false,
-      discountPercent: 10,
+      discountPercent: 0,
       variants: [
         { 
           color: 'Negro', 
@@ -283,7 +283,7 @@ export class ProductsService {
       talla: 'S',
       tallas: ['S', 'M', 'L'],
       onSale: false,
-      discountPercent: 10,
+      discountPercent: 0,
       variants: [
         { 
           color: 'Marrón Cálido', 
@@ -310,7 +310,7 @@ export class ProductsService {
       talla: 'S',
       tallas: ['S', 'M', 'L'],
       onSale: false,
-      discountPercent: 10,
+      discountPercent: 0,
       variants: [
         { 
           color: 'Blanco', 
@@ -330,7 +330,6 @@ export class ProductsService {
       ]
     },
     
-
 
   ];
 
