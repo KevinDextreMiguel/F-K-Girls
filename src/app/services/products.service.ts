@@ -287,7 +287,7 @@ export class ProductsService {
       name: 'Media plantilla (Socmark)',
       price: 7.9,
       talla: 'S',
-      tallas: ['S', 'M', 'L'],
+      tallas: ['36-40'],
       onSale: false,
       discountPercent: 0,
       variants: [
@@ -316,7 +316,7 @@ export class ProductsService {
       name: 'Media ultra talonera (Pesail)',
       price: 8.9,
       talla: 'S',
-      tallas: ['S', 'M', 'L'],
+      tallas: ['36-40'],
       onSale: false,
       discountPercent: 0,
       variants: [
@@ -346,7 +346,7 @@ export class ProductsService {
       name: 'Media de orejitas (Socmark)',
       price: 7.9,
       talla: 'S',
-      tallas: ['S', 'M', 'L'],
+      tallas: ['36-40'],
       onSale: false,
       discountPercent: 0,
       variants: [
@@ -367,7 +367,7 @@ export class ProductsService {
       name: 'Media de orejitas (Socmark)',
       price: 7.9,
       talla: 'S',
-      tallas: ['S', 'M', 'L'],
+      tallas: ['36-40'],
       onSale: false,
       discountPercent: 0,
       variants: [
@@ -389,7 +389,7 @@ export class ProductsService {
       name: 'Media talonera con diseño extravagante (Amanecer)',
       price: 10.9,
       talla: 'S',
-      tallas: ['S', 'M', 'L'],
+      tallas: ['36-40'],
       onSale: false,
       discountPercent: 0,
       variants: [
@@ -416,7 +416,7 @@ export class ProductsService {
       name: 'Medias talonera (Amanecer)',
       price: 10.9,
       talla: 'S',
-      tallas: ['S', 'M', 'L'],
+      tallas: ['36-40'],
       onSale: false,
       discountPercent: 0,
       variants: [
@@ -443,7 +443,7 @@ export class ProductsService {
       name: 'Media talonera (Durey)',
       price: 9.9,
       talla: 'S',
-      tallas: ['S', 'M', 'L'],
+      tallas: ['36-40'],
       onSale: false,
       discountPercent: 0,
       variants: [
@@ -464,7 +464,7 @@ export class ProductsService {
       name: 'Media tobillera (Durey)',
       price: 9.9,
       talla: 'S',
-      tallas: ['S', 'M', 'L'],
+      tallas: ['36-40'],
       onSale: false,
       discountPercent: 0,
       variants: [
@@ -492,7 +492,7 @@ export class ProductsService {
       name: 'Media tobillera (Durey)',
       price: 9.9,
       talla: 'S',
-      tallas: ['S', 'M', 'L'],
+      tallas: ['36-40'],
       onSale: false,
       discountPercent: 0,
       variants: [
@@ -518,7 +518,7 @@ export class ProductsService {
       name: 'Media tobillera (Durey)',
       price: 9.9,
       talla: 'S',
-      tallas: ['S', 'M', 'L'],
+      tallas: ['36-40'],
       onSale: false,
       discountPercent: 0,
       variants: [
