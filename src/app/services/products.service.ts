@@ -184,7 +184,7 @@ export class ProductsService {
       ]
     },
      { id: 9,
-      name: 'Ropa interior semihilo encaje adelante',
+      name: 'Ropa interior semihilo encaje adelante (Merci)',
       price: 16.9,
       talla: 'S',
       tallas: ['S', 'M', 'L'],
