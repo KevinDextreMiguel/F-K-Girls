@@ -253,7 +253,7 @@ confirmPurchase() {
   Direcciòn: ${this.checkoutData.direccion}
   `;
 
-  const telefono = 910467314;
+  const telefono = '51910467314';
   const mensajeCodificado = encodeURIComponent(mensaje.trim());
   const url = `https://wa.me/${telefono}?text=${mensajeCodificado}`;
 
