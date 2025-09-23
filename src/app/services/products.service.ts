@@ -9,8 +9,8 @@ export class ProductsService {
   private products: Product[] = [
     { 
       id: 1, 
-      name: 'Ropa Interior 1', 
-      price: 21.9,
+      name: 'Ropa interior cacheteros (Jacky Form)', 
+      price: 17.9,
       talla: 'S',
       tallas: ['S', 'M', 'L'],
       onSale: false,
@@ -30,7 +30,18 @@ export class ProductsService {
           color: 'Rosa claro', 
           hex: '#fea1b8', 
           image: 'https://i.imgur.com/8B95Bz2.jpg',
-        },
+        }
+      ]
+    },
+    { 
+      id: 2, 
+      name: 'Ropa interior cacheteros (Jacky Form)', 
+      price: 17.9,
+      talla: 'S',
+      tallas: ['S', 'M', 'L'],
+      onSale: false,
+      discountPercent: 0,
+      variants: [
         { 
           color: 'Azul marino', 
           hex: '#123772', 
@@ -44,9 +55,9 @@ export class ProductsService {
       ]
     },
     { 
-      id: 2, 
-      name: 'Ropa Interior 2', 
-      price: 19.9,
+      id: 3, 
+      name: 'Ropa interior semihilo (Jacky Form)', 
+      price: 18.9,
       talla: 'S',
       tallas: ['S', 'M', 'L'],
       onSale: false,
@@ -61,7 +72,18 @@ export class ProductsService {
           color: 'Rojo coral', 
           hex: '#ea5c5f', 
           image: 'https://i.imgur.com/M0VAJZj.jpg',
-        },
+        }
+      ]
+    },
+    { 
+      id: 4, 
+      name: 'Ropa interior semihilo (Jacky Form)', 
+      price: 18.9,
+      talla: 'S',
+      tallas: ['S', 'M', 'L'],
+      onSale: false,
+      discountPercent: 0,
+      variants: [
         { 
           color: 'Negro', 
           hex: '#000000', 
@@ -74,8 +96,75 @@ export class ProductsService {
         }
       ]
     },
-    { id: 3,
-      name: 'Ropa interior 3',
+        { id: 5,
+      name: 'Ropa interior bikini básico (Jacky Form)',
+      price: 14.9,
+      talla: 'S',
+      tallas: ['S', 'M', 'L'],
+      onSale: false,
+      discountPercent: 0,
+      variants: [
+        { 
+          color: 'Durazno suave', 
+          hex: '#e8bf9d', 
+          image: 'https://i.imgur.com/eZSZOE6.jpeg',
+        },
+        { 
+          color: 'Blanco', 
+          hex: '#ffffff', 
+          image: 'https://i.imgur.com/4YjyODm.jpeg'
+        },
+        { 
+          color: 'Beige rosado', 
+          hex: '#d6ad97', 
+          image: 'https://i.imgur.com/t1F66uM.jpeg',
+        }
+      ]
+    },
+    
+    { id: 6,
+      name: 'Ropa interior bikini básico (Jacky Form)',
+      price: 14.9,
+      talla: 'S',
+      tallas: ['S', 'M', 'L'],
+      onSale: false,
+      discountPercent: 0,
+      variants: [
+        { 
+          color: 'Gris cálido', 
+          hex: '#716e6e', 
+          image: 'https://i.imgur.com/NNaGFpg.jpeg',
+        },
+        { 
+          color: 'Negro', 
+          hex: '#000000', 
+          image: 'https://i.imgur.com/ywQMm3U.jpeg'
+        }
+      ]
+    },
+
+    { id: 7,
+      name: 'Ropa interior bikini básico (Jacky Form)',
+      price: 14.9,
+      talla: 'S',
+      tallas: ['S', 'M', 'L'],
+      onSale: false,
+      discountPercent: 0,
+      variants: [
+        { 
+          color: 'Rosa coral', 
+          hex: '#fcb0a9', 
+          image: 'https://i.imgur.com/odnQxY3.jpeg',
+        },
+        { 
+          color: 'Rojo pasión', 
+          hex: '#df0031', 
+          image: 'https://i.imgur.com/ncpKIhn.jpeg'
+        }
+      ]
+    },
+    { id: 8,
+      name: 'Ropa interior hilo encaje (Rosalinda)',
       price: 12.9,
       talla: 'S',
       tallas: ['S', 'M', 'L'],
@@ -94,9 +183,9 @@ export class ProductsService {
         }
       ]
     },
-     { id: 4,
-      name: 'Ropa interior 4',
-      price: 12.9,
+     { id: 9,
+      name: 'Ropa interior semihilo encaje adelante',
+      price: 16.9,
       talla: 'S',
       tallas: ['S', 'M', 'L'],
       onSale: true,
@@ -130,11 +219,11 @@ export class ProductsService {
 
 
 
-    { id: 5,
-      name: 'Brasier 1',
-      price: 26.9,
+    { id: 10,
+      name: 'Brasier copa completa (Rose)',
+      price: 28.9,
       talla: 'S',
-      tallas: ['S', 'M', 'L'],
+      tallas: ['36', '38', '40','42'],
       onSale: false,
       discountPercent: 0,
       variants: [
@@ -157,19 +246,14 @@ export class ProductsService {
     },
 
 
-    { id: 6,
-      name: 'Brasier 2',
-      price: 25.9,
+    { id: 11,
+      name: 'Brasier latex media copa (Vi-Mas)',
+      price: 27.9,
       talla: 'S',
-      tallas: ['S', 'M', 'L'],
+      tallas: ['36', '38', '40','42'],
       onSale: false,
       discountPercent: 0,
       variants: [
-        { 
-          color: 'Marrón dorado', 
-          hex: '#917243', 
-          image: 'https://i.imgur.com/n7vqude.jpg',
-        },
         { 
           color: 'Azul lavanda', 
           hex: '#7f94c1', 
@@ -183,9 +267,24 @@ export class ProductsService {
       ]
     },
 
+    { id: 12,
+      name: 'Brasier copa completa (Vi-Mas)',
+      price: 25.9,
+      talla: 'S',
+      tallas: ['36', '38', '40','42'],
+      onSale: false,
+      discountPercent: 0,
+      variants: [
+        { 
+          color: 'Marrón dorado', 
+          hex: '#917243', 
+          image: 'https://i.imgur.com/n7vqude.jpg',
+        }
+      ]
+    },
 
-    { id: 7,
-      name: 'Medias Plantilla',
+    { id: 13,
+      name: 'Media plantilla (Socmark)',
       price: 7.9,
       talla: 'S',
       tallas: ['S', 'M', 'L'],
@@ -213,9 +312,9 @@ export class ProductsService {
 
 
 
-    { id: 8,
-      name: 'Medias 2',
-      price: 10.9,
+    { id: 14,
+      name: 'Media ultra talonera (Pesail)',
+      price: 8.9,
       talla: 'S',
       tallas: ['S', 'M', 'L'],
       onSale: false,
@@ -243,8 +342,8 @@ export class ProductsService {
 
 
 
-    { id: 9,
-      name: 'Medias Plantilla 2',
+    { id: 15,
+      name: 'Media de orejitas (Socmark)',
       price: 7.9,
       talla: 'S',
       tallas: ['S', 'M', 'L'],
@@ -260,7 +359,18 @@ export class ProductsService {
           color: 'Marrón oliva', 
           hex: '#938564', 
           image: 'https://i.imgur.com/dRv0CwW.jpg'
-        },
+        }
+      ]
+    },
+
+    { id: 16,
+      name: 'Media de orejitas (Socmark)',
+      price: 7.9,
+      talla: 'S',
+      tallas: ['S', 'M', 'L'],
+      onSale: false,
+      discountPercent: 0,
+      variants: [
         { 
           color: 'Blanco', 
           hex: '#FFFFFF', 
@@ -275,10 +385,8 @@ export class ProductsService {
     },
 
 
-
-
-    { id: 10,
-      name: 'Medias Amanecer',
+    { id: 17,
+      name: 'Media talonera con diseño extravagante (Amanecer)',
       price: 10.9,
       talla: 'S',
       tallas: ['S', 'M', 'L'],
@@ -304,8 +412,8 @@ export class ProductsService {
     },
 
 
-     { id: 11,
-      name: 'Medias Amanecer 2',
+     { id: 18,
+      name: 'Medias talonera (Amanecer)',
       price: 10.9,
       talla: 'S',
       tallas: ['S', 'M', 'L'],
@@ -330,6 +438,102 @@ export class ProductsService {
       ]
     },
     
+
+    { id: 19,
+      name: 'Media talonera (Durey)',
+      price: 9.9,
+      talla: 'S',
+      tallas: ['S', 'M', 'L'],
+      onSale: false,
+      discountPercent: 0,
+      variants: [
+        { 
+          color: 'Blanco', 
+          hex: '#FFFFFF', 
+          image: 'https://i.imgur.com/Qs8E3wD.jpeg',
+        },
+        { 
+          color: 'Gris Claro', 
+          hex: '#c4c3c4', 
+          image: 'https://i.imgur.com/hTK0uip.jpeg'
+        }
+      ]
+    },
+
+    { id: 20,
+      name: 'Media tobillera (Durey)',
+      price: 9.9,
+      talla: 'S',
+      tallas: ['S', 'M', 'L'],
+      onSale: false,
+      discountPercent: 0,
+      variants: [
+        { 
+          color: 'Rosa pastel', 
+          hex: '#f9b8c6', 
+          image: 'https://i.imgur.com/xpJsIDp.jpeg',
+        },
+        { 
+          color: 'Azul noche', 
+          hex: '#052a5c', 
+          image: 'https://i.imgur.com/DYHG6bo.jpeg'
+        }
+        ,
+        { 
+          color: 'Blanco', 
+          hex: '#FFFFFF', 
+          image: 'https://i.imgur.com/19prHFc.jpeg'
+        }
+      ]
+    },
+
+
+     { id: 21,
+      name: 'Media tobillera (Durey)',
+      price: 9.9,
+      talla: 'S',
+      tallas: ['S', 'M', 'L'],
+      onSale: false,
+      discountPercent: 0,
+      variants: [
+        { 
+          color: 'Gris pardo', 
+          hex: '#716d67', 
+          image: 'https://i.imgur.com/0GGTWaU.jpeg',
+        },
+        { 
+          color: 'Lavanda suave', 
+          hex: '#b388b2', 
+          image: 'https://i.imgur.com/WKfOCvJ.jpeg'
+        }
+        ,
+        { 
+          color: 'Durazno suave', 
+          hex: '#eda18d', 
+          image: 'https://i.imgur.com/mHE98GK.jpeg'
+        }
+      ]
+    },
+    { id: 22,
+      name: 'Media tobillera (Durey)',
+      price: 9.9,
+      talla: 'S',
+      tallas: ['S', 'M', 'L'],
+      onSale: false,
+      discountPercent: 0,
+      variants: [
+        { 
+          color: 'Rosa pastel', 
+          hex: '#f8b6c3', 
+          image: 'https://i.imgur.com/hCOvyZ9.jpeg',
+        },
+        { 
+          color: 'Negro', 
+          hex: '#000000', 
+          image: 'https://i.imgur.com/z86dOdT.jpeg'
+        }
+      ]
+    },
 
   ];
 
