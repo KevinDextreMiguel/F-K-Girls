@@ -10,7 +10,7 @@ export class ProductsService {
     { 
       id: 1, 
       name: 'Ropa interior cacheteros (Jacky Form)', 
-      price: 17.9,
+      price: 14.9,
       talla: 'S',
       tallas: ['S', 'M', 'L'],
       onSale: false,
@@ -36,7 +36,7 @@ export class ProductsService {
     { 
       id: 2, 
       name: 'Ropa interior cacheteros (Jacky Form)', 
-      price: 17.9,
+      price: 14.9,
       talla: 'S',
       tallas: ['S', 'M', 'L'],
       onSale: false,
@@ -57,7 +57,7 @@ export class ProductsService {
     { 
       id: 3, 
       name: 'Ropa interior semihilo (Jacky Form)', 
-      price: 18.9,
+      price: 16.9,
       talla: 'S',
       tallas: ['S', 'M', 'L'],
       onSale: false,
@@ -78,7 +78,7 @@ export class ProductsService {
     { 
       id: 4, 
       name: 'Ropa interior semihilo (Jacky Form)', 
-      price: 18.9,
+      price: 16.9,
       talla: 'S',
       tallas: ['S', 'M', 'L'],
       onSale: false,
@@ -98,7 +98,7 @@ export class ProductsService {
     },
         { id: 5,
       name: 'Ropa interior bikini básico (Jacky Form)',
-      price: 14.9,
+      price: 13.9,
       talla: 'S',
       tallas: ['S', 'M', 'L'],
       onSale: false,
@@ -124,7 +124,7 @@ export class ProductsService {
     
     { id: 6,
       name: 'Ropa interior bikini básico (Jacky Form)',
-      price: 14.9,
+      price: 13.9,
       talla: 'S',
       tallas: ['S', 'M', 'L'],
       onSale: false,
@@ -145,7 +145,7 @@ export class ProductsService {
 
     { id: 7,
       name: 'Ropa interior bikini básico (Jacky Form)',
-      price: 14.9,
+      price: 13.9,
       talla: 'S',
       tallas: ['S', 'M', 'L'],
       onSale: false,
@@ -165,7 +165,7 @@ export class ProductsService {
     },
     { id: 8,
       name: 'Ropa interior hilo encaje (Rosalinda)',
-      price: 12.9,
+      price: 11.9,
       talla: 'S',
       tallas: ['S', 'M', 'L'],
       onSale: false,
@@ -185,11 +185,11 @@ export class ProductsService {
     },
      { id: 9,
       name: 'Ropa interior semihilo encaje adelante (Merci)',
-      price: 16.9,
+      price: 12.9,
       talla: 'S',
       tallas: ['S', 'M', 'L'],
-      onSale: true,
-      discountPercent: 10,
+      onSale: false,
+      discountPercent: 0,
       variants: [
         { 
           color: 'Vino oscuro', 
@@ -221,7 +221,7 @@ export class ProductsService {
 
     { id: 10,
       name: 'Brasier copa completa (Rose)',
-      price: 28.9,
+      price: 19.9,
       talla: 'S',
       tallas: ['36', '38', '40','42'],
       onSale: false,
@@ -248,7 +248,7 @@ export class ProductsService {
 
     { id: 11,
       name: 'Brasier latex media copa (Vi-Mas)',
-      price: 27.9,
+      price: 19.9,
       talla: 'S',
       tallas: ['36', '38', '40','42'],
       onSale: false,
@@ -269,7 +269,7 @@ export class ProductsService {
 
     { id: 12,
       name: 'Brasier copa completa (Vi-Mas)',
-      price: 25.9,
+      price: 19.9,
       talla: 'S',
       tallas: ['36', '38', '40','42'],
       onSale: false,
@@ -285,7 +285,7 @@ export class ProductsService {
 
     { id: 13,
       name: 'Media plantilla (Socmark)',
-      price: 7.9,
+      price: 5.9,
       talla: 'S',
       tallas: ['36-40'],
       onSale: false,
@@ -314,7 +314,7 @@ export class ProductsService {
 
     { id: 14,
       name: 'Media ultra talonera (Pesail)',
-      price: 8.9,
+      price: 6.9,
       talla: 'S',
       tallas: ['36-40'],
       onSale: false,
@@ -344,7 +344,7 @@ export class ProductsService {
 
     { id: 15,
       name: 'Media de orejitas (Socmark)',
-      price: 7.9,
+      price: 5.9,
       talla: 'S',
       tallas: ['36-40'],
       onSale: false,
@@ -365,7 +365,7 @@ export class ProductsService {
 
     { id: 16,
       name: 'Media de orejitas (Socmark)',
-      price: 7.9,
+      price: 5.9,
       talla: 'S',
       tallas: ['36-40'],
       onSale: false,
@@ -387,7 +387,7 @@ export class ProductsService {
 
     { id: 17,
       name: 'Media talonera con diseño extravagante (Amanecer)',
-      price: 10.9,
+      price: 6.9,
       talla: 'S',
       tallas: ['36-40'],
       onSale: false,
@@ -414,7 +414,7 @@ export class ProductsService {
 
      { id: 18,
       name: 'Medias talonera (Amanecer)',
-      price: 10.9,
+      price: 6.9,
       talla: 'S',
       tallas: ['36-40'],
       onSale: false,
@@ -493,8 +493,8 @@ export class ProductsService {
       price: 9.9,
       talla: 'S',
       tallas: ['36-40'],
-      onSale: false,
-      discountPercent: 0,
+      onSale: true,
+      discountPercent: 10,
       variants: [
         { 
           color: 'Gris pardo', 

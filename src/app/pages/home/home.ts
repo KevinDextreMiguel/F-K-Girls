@@ -22,25 +22,24 @@ export class Home implements OnInit, OnDestroy{
     En nuestra tienda online encontrarás fajas moldeadoras, medias elegantes, 
     ropa interior y brasieres diseñados para realzar tu belleza natural y hacerte sentir increíble cada día.`,
     
-    `Aquí descubrirás mucho más que una prenda: nuestras fajas son el abrazo perfecto para tu figura. 
-    Diseñadas con telas de compresión inteligente y costuras invisibles, ofrecen soporte donde lo necesitas, 
-    realzan tus curvas y se adaptan a cada movimiento sin sacrificar comodidad.`,
+    `Resalta tu figura con total comodidad.
+    Nuestras fajas están hechas para moldear suavemente tu silueta, 
+    con telas de alta calidad que te ofrecen soporte, frescura y confort.
+    Porque sentirte bien contigo misma no tiene que costar más de lo necesario.`,
 
-    `Aquí no solo encontrarás ropa interior, descubrirás una experiencia de lujo para tu piel. 
-    Cada prenda ha sido creada con materiales de la más alta calidad, pensada para envolverte en suavidad, 
-    realzar tu figura y brindarte una comodidad que sentirás desde el primer instante. 
-    Siente la diferencia. Vive el confort. Ama tu reflejo.`,
+    `La belleza empieza desde dentro
+    Descubre nuestra ropa interior diseñada para ofrecerte suavidad, 
+    frescura y libertad de movimiento, sin renunciar a la calidad y el precio justo que mereces. 
+    Siéntete cómoda y segura en cada momento del día.`,
 
-    `Aquí comienza tu historia con el brasier perfecto. Confeccionados con encajes finos, microfibras ultrasuaves y 
-    acabados de alta costura, cada brasier abraza tu figura con un ajuste impecable, realza tu silueta y 
-    te acompaña con soporte durante todo el día. Cada diseño está pensado para que te sientas tan segura como femenina. 
-    Siéntete cómoda, mírate radiante, vive la diferencia.`,
+    `Donde comodidad y estilo se encuentran
+    Brasieres diseñados para acompañar tu día con soporte perfecto, 
+    suavidad al contacto y un diseño que realza tu belleza natural. 
+    Todo con la calidad que mereces y un precio justo que amarás.`,
 
-    `Aquí tus pasos comienzan con elegancia. Nuestras medias no son solo un accesorio: 
-    son la fusión perfecta entre confort, estilo y durabilidad. 
-    Diseñadas con fibras premium de última generación, ofrecen un tacto suave como la seda, 
-    una resistencia sorprendente y un ajuste impecable que se adapta a ti en cada movimiento.
-    Calidad que se nota. Estilo que se siente.`
+    `Nuestras medias están pensadas para acompañarte con comodidad y resistencia, 
+    sin dejar de lado la elegancia que te hace brillar en cualquier ocasión. 
+    Calidad que se siente y un precio justo para que cada paso sea más seguro y encantador.`
   ];
   
   backgrounds: string[] = [
