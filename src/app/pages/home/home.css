@@ -31,10 +31,11 @@
 }
 
 .carousel-text {
-  flex: 1;
+  max-width: 90%;
+  margin: 0 auto;
   padding: 1.5rem;
   border-radius: 12px;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  text-align: left;
 }
 
 .carousel-text h4 {
@@ -107,12 +108,15 @@
   }
 
   .carousel-text {
-    padding: 1rem;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 1.5rem;
   }
 
   .carousel-text h4 {
+    text-align: left; /* ← cambia de justify a left */
     font-size: 1.3rem;
-    text-align: left;
+    line-height: 1.6;
   }
 
   .nav-btn {

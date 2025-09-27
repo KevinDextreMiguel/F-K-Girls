@@ -20,7 +20,8 @@ export class Home implements OnInit, OnDestroy{
   texts: string[] = [
     `Descubre el lugar donde la comodidad, la confianza y el estilo se encuentran. 
     En nuestra tienda online encontrarás fajas moldeadoras, medias elegantes, 
-    ropa interior y brasieres diseñados para realzar tu belleza natural y hacerte sentir increíble cada día.`,
+    ropa interior y brasieres diseñados para realzar tu belleza natural 
+    y hacerte sentir increíble cada día.`,
     
     `Resalta tu figura con total comodidad.
     Nuestras fajas están hechas para moldear suavemente tu silueta, 
