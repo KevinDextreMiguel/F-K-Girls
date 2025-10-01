@@ -289,7 +289,7 @@ export class ProductsService {
     },
 
     { id: 13,
-      name: 'Brasier copa completa (Vi-Mas)',
+      name: 'Brasier copa completa (Rose)',
       price: 19.9,
       talla: 'S',
       tallas: ['36', '38', '40','42'],
@@ -300,11 +300,62 @@ export class ProductsService {
           color: 'Marrón dorado', 
           hex: '#917243', 
           image: 'https://i.imgur.com/n7vqude.jpg',
+        },
+        { 
+          color: 'Rojo Intenso', 
+          hex: '#e60001', 
+          image: 'https://i.imgur.com/OXBh2pz.jpeg',
         }
       ]
     },
 
     { id: 14,
+      name: 'Brasier copa completa (Rose)',
+      price: 19.9,
+      talla: 'S',
+      tallas: ['36', '38', '40','42'],
+      onSale: false,
+      discountPercent: 0,
+      variants: [
+        { 
+          color: 'Negro púrpura', 
+          hex: '#1f1d26', 
+          image: 'https://i.imgur.com/2YexzxC.jpeg',
+        },
+        { 
+          color: 'Azul pastel claro', 
+          hex: '#a3c0d6', 
+          image: 'https://i.imgur.com/nlDO4qh.jpeg',
+        },
+        { 
+          color: 'Melocotón claro', 
+          hex: '#edceb7', 
+          image: 'https://i.imgur.com/P7NoHOR.jpeg',
+        }
+      ]
+    },
+    { id: 15,
+      name: 'Brasier copa completa (Rose)',
+      price: 19.9,
+      talla: 'S',
+      tallas: ['36', '38', '40','42'],
+      onSale: false,
+      discountPercent: 0,
+      variants: [
+        { 
+          color: 'Beige topo', 
+          hex: '#cab49c', 
+          image: 'https://i.imgur.com/APfJh2k.jpeg',
+        },
+        { 
+          color: 'Caoba profundo', 
+          hex: '#4a1d13', 
+          image: 'https://i.imgur.com/9tTedHT.jpeg',
+        }
+      ]
+    },
+
+    { id: 16,
       name: 'Media plantilla (Socmark)',
       price: 5.9,
       talla: 'S',
@@ -333,7 +384,7 @@ export class ProductsService {
 
 
 
-    { id: 15,
+    { id: 17,
       name: 'Media ultra talonera (Pesail)',
       price: 6.9,
       talla: 'S',
@@ -363,7 +414,7 @@ export class ProductsService {
 
 
 
-    { id: 16,
+    { id: 18,
       name: 'Media de orejitas (Socmark)',
       price: 5.9,
       talla: 'S',
@@ -384,7 +435,7 @@ export class ProductsService {
       ]
     },
 
-    { id: 17,
+    { id: 19,
       name: 'Media de orejitas (Socmark)',
       price: 5.9,
       talla: 'S',
@@ -406,7 +457,7 @@ export class ProductsService {
     },
 
 
-    { id: 18,
+    { id: 20,
       name: 'Media talonera con diseño extravagante (Amanecer)',
       price: 6.9,
       talla: 'S',
@@ -433,7 +484,7 @@ export class ProductsService {
     },
 
 
-     { id: 19,
+     { id: 21,
       name: 'Medias talonera (Amanecer)',
       price: 6.9,
       talla: 'S',
@@ -460,7 +511,7 @@ export class ProductsService {
     },
     
 
-    { id: 20,
+    { id: 22,
       name: 'Media talonera (Durey)',
       price: 9.9,
       talla: 'S',
@@ -481,7 +532,7 @@ export class ProductsService {
       ]
     },
 
-    { id: 21,
+    { id: 23,
       name: 'Media tobillera (Durey)',
       price: 9.9,
       talla: 'S',
@@ -509,7 +560,7 @@ export class ProductsService {
     },
 
 
-     { id: 22,
+     { id: 24,
       name: 'Media tobillera (Durey)',
       price: 9.9,
       talla: 'S',
@@ -535,7 +586,7 @@ export class ProductsService {
         }
       ]
     },
-    { id: 23,
+    { id: 25,
       name: 'Media tobillera (Durey)',
       price: 9.9,
       talla: 'S',
